@@ -611,6 +611,9 @@ color: #FFFFFF;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.1); 
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: opacity, visibility;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing);
   }
 .backdrop.is-hidden .modal{
  transform: translate(-50%,-50%) scale(0);
@@ -762,6 +765,7 @@ line-height: 1.875;
 margin-right: auto;
 margin-left: auto;
 border: none;
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .close-btn:focus,
 .close-btn:hover{
@@ -810,6 +814,8 @@ font-style: normal;
 font-weight: bold;
 font-size: 16px;
 line-height: 1.875;
+cursor: pointer;
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-form-sub-btn{
   margin-left: 10px;
