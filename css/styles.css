@@ -76,7 +76,9 @@ img {
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
-   color: #212121;
+  color: #212121;
+  transition: color  250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 
 }
 .navigation-list {
@@ -86,6 +88,7 @@ img {
 .navigation-list-item{
   padding-top: 32px;
   padding-bottom: 32px;
+
 }
 .navigation-list-item:not(:last-child){
   margin-right: 50px;
@@ -97,10 +100,12 @@ img {
 .header-contact-link:focus,
 .header-contact-link:hover{
   color: var(--accent-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 .header-contacts:hover,
 .header-contacts:focus{
   color: var(--accent-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo {
@@ -314,6 +319,7 @@ color: #212121;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   fill: #AFB1B8;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .title-clients-icon{
   color: #AFB1B8;
@@ -407,6 +413,7 @@ padding-bottom: 94px;
   height: 44px;
   border-radius: 50%;
   color: #AFB1B8;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 /*END TEAM*/
 
@@ -491,11 +498,13 @@ padding-top: 20px;
   border-radius: 4px;
   padding: 10px 32px;
   cursor: pointer;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-icon:hover,
 .button-icon:focus {
   background-color: #2196f3;
   color: #FFFFFF;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-btn{
@@ -580,6 +589,7 @@ color: #FFFFFF;
   height: 44px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 .footer-icon{
   fill: #ffffff;
